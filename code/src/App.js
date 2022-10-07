@@ -12,7 +12,7 @@ function App() {
      
       <div className='menu'>
         <div className='logo'>
-          Cycberpunk
+          CYCBERPUNKS singularity
           <div className='sublogo'>
             2077
           </div>
@@ -24,6 +24,7 @@ function App() {
           <li>Saved</li>
           <li>Developers</li>
         </ul>
+        
       </div>
     </body>
     </>
