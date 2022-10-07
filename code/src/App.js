@@ -7,7 +7,8 @@ function App() {
   useEffect(()=> {document.title = "Night City OverLords"},[])
 
   return (
-    <div className="App">
+    <>
+    <body className="App">
      
       <div className='menu'>
         <div className='logo'>
@@ -24,7 +25,8 @@ function App() {
           <li>Developers</li>
         </ul>
       </div>
-    </div>
+    </body>
+    </>
   );
 }
 
