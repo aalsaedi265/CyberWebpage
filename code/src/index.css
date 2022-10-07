@@ -47,4 +47,26 @@
   .logo{
     color:#f7f500;font-family: 'Cyberpunk';
     font-size:42px;
+    line-height: 1.5;
+    letter-spacing:5px;
+    text-align: center;
+    text-shadow: rgb(0,208,255) 2px 3px 0px;
+    padding:25px;
+  }
+  .sublogo{
+    font-size:26px;
+    text-shadow: rgb(0,208,255)0px 0px 15px;
+    text-align: right;
+    letter-spacing:3px;
+    padding-right: 10px;
+  }
+  .menu li{
+    list-style-type: disc;
+    padding: 0px 25px;
+  }
+  .menu ul li{
+    text-transform: uppercase;
+    cursor: pointer;
+    color: rgba(211,87,91,0.81);
+    font-family: Cyberpunk;
   }

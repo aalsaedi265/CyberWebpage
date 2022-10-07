@@ -12,9 +12,9 @@ function App() {
      
       <div className='menu'>
         <div className='logo'>
-          CYCBERPUNKS singularity
+          Night City OverLords
           <div className='sublogo'>
-            2077
+            #1 Cycberpunk Forum
           </div>
         </div>
         <ul>
