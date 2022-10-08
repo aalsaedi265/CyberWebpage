@@ -72,8 +72,8 @@
     /* font related*/
     color:rgba(211,87,91,0.81);
     font-family:Cyberpunk;
-    letter-spacing:6.9px;
-    font-size:26px;
+    letter-spacing:5px;
+    font-size:20px;
     text-shadow: 0px 0px 3px var(--red-glow);
     /*border*/
     border-style: solid;
