@@ -1,5 +1,5 @@
 import React, {useEffect} from 'react';
-import {Route,Routes} from 'react-router-dom';
+import MenuSelect from './modules/MenuSelect';
 
 
 import './App.css';
@@ -19,16 +19,7 @@ function App() {
             #1 Cycberpunk Forum
           </div>
         </div>
-       
-        <ul>
-        
-          <li>Nigh City News </li>
-          <li>Your Page</li>
-          <li>Best Around </li>
-          <li>Past Convos</li>
-          <li>NetRunners</li>
-         
-        </ul>
+          <MenuSelect/>
         
       </div>
     </body>
