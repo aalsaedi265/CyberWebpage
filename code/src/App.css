@@ -1,0 +1,124 @@
+
+:root{
+    --red-scanline: rgba(204,94,98,0.2);
+    --black-scanline: rgba(1,1,1,0.9);
+    --yellow: #f7f500;
+    --red-glow: rgba(211,87,91, 0.91);
+    --blue: #61e4fa;
+    }
+    *{
+      box-sizing: border-box;
+    }
+    html,body{
+      margin: 0;
+      height: 100%;
+      display: block;
+    }
+    body{
+      background-image: url("./pictureFile/Night.jpg");
+      background-size: cover;
+      color:white
+    }
+  
+    .menu {
+      margin-left: 150px;
+      width: 400px;
+      height: 100%;
+      display: inline-block;
+  
+      /* this is was i used to get the background for the meue */
+      
+      background: repeating-linear-gradient(
+          to bottom,
+          transparent 0%,
+          var(--red-scanline)1px,
+          var(--red-scanline)4px,
+          var(--red-scanline)5px,
+          transparent 0.5%
+      ),
+      repeating-linear-gradient(
+          to left, 
+          var(--black-scanline),
+          var(--black-scanline) 100%
+      ),
+      repeating-linear-gradient(
+          to left, 
+          var(--black-scanline),
+          var(--black-scanline) 100%
+      );
+  }
+  .logo{
+      color:#f7f500;
+      font-family:'Cyberpunk';
+      font-size:42px;
+      line-height: 1.5;
+      text-align: center;
+      text-shadow: rgb(0,208,255) 2px 3px 0px;
+      padding:25px;
+  }
+  .sublogo{
+      font-family:Roboto;
+      font-size:20px;
+      color: rgb(0,208,255);
+      text-shadow: none;
+      text-align:right;
+      letter-spacing:10px;
+      /* a lttle left so not so stuck */
+      padding-right:15px;
+  }
+  .menu li{
+      list-style-type: none;
+      padding: 0px 25px;
+  }
+  .menu ul li{
+      text-transform: uppercase;
+      cursor:pointer;
+      /* font related*/
+      color:rgba(211,87,91,0.81);
+      font-family:Cyberpunk;
+      letter-spacing:5px;
+      font-size:20px;
+      text-shadow: 0px 0px 3px var(--red-glow);
+      /*border*/
+      border-style: solid;
+      border-width: 2px;
+      border-color: var(--blue);
+      border-color: transparent;
+      /*layout*/
+      position: relative;
+      padding: 10px;
+      margin:15px 0px;
+      width: 350px;
+      height:54.5px;
+      clip-path: polygon(350px 0px, 350px 29px, 322px 57px, 0px 57px, 0px 0px);
+  
+      /* Animation */
+      transition: color 1s ease-out;
+      transition: border-color 1s ease-out
+  }
+  .menu ul li:hover::after,
+  .menu ul li:hover{
+      color:var(--blue);
+      border-color: var(--blue);
+        /*transition*/
+        transition:color 0.23s linear;
+        transition:border-color 0.23s linear;
+  }
+  .menu ul li::after{
+      content: "";
+      width:30px;
+      height: 30px;
+      position:absolute;
+      transform:rotate(45deg);
+      bottom:-17px;
+      right: -17px;
+      /*border*/
+      border-width: 2px;
+      border-style:solid;
+      border-color: transparent;
+  
+      /* Animation */
+      transition: color 1s ease-out;
+      transition: border-color 1s ease-out;
+    }
+  

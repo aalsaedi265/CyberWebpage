@@ -1,25 +1,23 @@
 
 import React from 'react'
-import {link} from 'react-router-dom'
-import {Route,Routes} from 'react-router-dom';
+import {Link} from 'react-router-dom'
+
 
 function menuSelect()
 {
 
     return(
-        <>
-            <div>
-                <ul>
+         <div>
+            <ul>
                     
-                    <li>Nigh City News </li>
-                    <li>Your Page</li>
-                    <li>Best Around </li>
-                    <li>Past Convos</li>
-                    <li>NetRunners</li>
+                <Link to= 'nighcity-news' style={{textDecoration:'none'}}> <li>Nigh City News </li></Link> 
+                <Link to= '/' style={{textDecoration:'none'}}>  <li>Your Page</li> </Link>
+                <Link to='most-dependable-people' style={{textDecoration:'none'}}>   <li>Best Around </li></Link>
+                <Link to='conversation-log' style={{textDecoration:'none'}} ><li>Past Convos</li> </Link>
+                <Link to='best-hackers' style={{textDecoration:'none'}}>  <li>NetRunners</li> </Link>
                 
-                </ul>
-            </div>
-        </>
+            </ul>
+        </div>
         )
 }
 

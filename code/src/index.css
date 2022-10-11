@@ -41,6 +41,11 @@
         to left, 
         var(--black-scanline),
         var(--black-scanline) 100%
+    ),
+    repeating-linear-gradient(
+        to left, 
+        var(--black-scanline),
+        var(--black-scanline) 100%
     );
 }
 .logo{
