@@ -1,26 +1,27 @@
 
 :root{
-    --red-scanline: rgba(204,94,98,0.2);
-    --black-scanline: rgba(1,1,1,0.9);
-    --yellow: #f7f500;
-    --red-glow: rgba(211,87,91, 0.91);
-    --blue: #61e4fa;
-    }
-    *{
+  --red-scanline: rgba(204,94,98,0.2);
+  --black-scanline: rgba(1,1,1,0.9);
+  --yellow: #f7f500;
+  --red-glow: rgba(211,87,91, 0.91);
+  --blue: #61e4fa;
+  }
+  *{
       box-sizing: border-box;
-    }
-    html,body{
+  }
+  
+  html,body{
+  
       margin: 0;
       height: 100%;
       display: block;
-    }
-    body{
-      background-image: url("./pictureFile/Night.jpg");
-      background-size: cover;
-      color:white
-    }
-  
-    .menu {
+  }
+  body{
+    background-image: url("./pictureFile/Day.png");
+    /* color: white; */
+    background-size: cover;
+  }
+  .menu {
       margin-left: 150px;
       width: 400px;
       height: 100%;
@@ -40,11 +41,6 @@
           to left, 
           var(--black-scanline),
           var(--black-scanline) 100%
-      ),
-      repeating-linear-gradient(
-          to left, 
-          var(--black-scanline),
-          var(--black-scanline) 100%
       );
   }
   .logo{
@@ -57,12 +53,12 @@
       padding:25px;
   }
   .sublogo{
-      font-family:Roboto;
-      font-size:20px;
+      font-family:Cyberpunk;
+      font-size:26px;
       color: rgb(0,208,255);
       text-shadow: none;
       text-align:right;
-      letter-spacing:10px;
+      letter-spacing:17px;
       /* a lttle left so not so stuck */
       padding-right:15px;
   }
@@ -76,12 +72,12 @@
       /* font related*/
       color:rgba(211,87,91,0.81);
       font-family:Cyberpunk;
-      letter-spacing:5px;
-      font-size:20px;
+      letter-spacing:4.0px;
+      font-size:23px;
       text-shadow: 0px 0px 3px var(--red-glow);
       /*border*/
       border-style: solid;
-      border-width: 2px;
+      border-width: 1px;
       border-color: var(--blue);
       border-color: transparent;
       /*layout*/
@@ -120,5 +116,4 @@
       /* Animation */
       transition: color 1s ease-out;
       transition: border-color 1s ease-out;
-    }
-  
+  }
