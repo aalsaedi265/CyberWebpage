@@ -77,7 +77,7 @@
       text-shadow: 0px 0px 3px var(--red-glow);
       /*border*/
       border-style: solid;
-      border-width: 1px;
+      border-width: 2px;
       border-color: var(--blue);
       border-color: transparent;
       /*layout*/
