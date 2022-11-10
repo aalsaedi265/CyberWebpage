@@ -7,7 +7,7 @@ function menuSelect()
 {
 
     return(
-         <div>
+         <div className='the_list'>
             <ul>
                     
                 <Link to= 'nighcity_news' style={{textDecoration:'none'}}> <li>Tech News</li></Link> 

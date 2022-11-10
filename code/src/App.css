@@ -25,6 +25,7 @@
       margin-left: 150px;
       width: 400px;
       height: 100%;
+      
       display: inline-block;
   
       /* this is was i used to get the background for the meue */
@@ -66,6 +67,30 @@
       list-style-type: none;
       padding: 0px 25px;
   }
+
+  
+
+
+  .Center_page_info{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    overflow: none;
+    gap: 1.5rem;
+
+    width: 100%;
+
+    margin-bottom: 5rem;
+    width:800px;
+    margin: 0 auto;
+  }
+
+  .the_list{
+    float:left;
+  }
+
+
+
+
   .menu ul li{
       text-transform: uppercase;
       cursor:pointer;
