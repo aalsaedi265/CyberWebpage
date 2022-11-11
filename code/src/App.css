@@ -68,9 +68,10 @@
       padding: 0px 25px;
   }
 
-  
-
-
+/* news articles css only STARTS */
+  a{
+    text-decoration:none;
+  }
   .Center_page_info{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -83,10 +84,29 @@
     width:800px;
     margin: 0 auto;
   }
+  .each_article{
+    display: inline-block;
+    text-overflow: none;
 
-  .the_list{
-    float:left;
+    box-shadow: .6rem .7rem .4rem rgba(0, 0, 0, 0.1);
+
+    justify-content: center;
+    align-items: center;
+
+    width: auto;
+    height: auto;
+
+    object-fit: contain;
   }
+  .each_article img{
+    width: 75%;
+    border-radius: 5px;
+    object-fit: scale-down;
+  }
+/* news articles css only ENDS  */
+  /* .the_list{
+    float:left;
+  } */
 
 
 

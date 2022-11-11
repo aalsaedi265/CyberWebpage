@@ -15,7 +15,7 @@ function nighCityNews(){
     
     // let searchable_articels = news.filter( el => el.title.toLowerCase(). )
 
-    let displayed_Arctiles = news.map(obj=>(
+    let displayed_Arctiles = news.filter(el=> el.image_url !== null).map(obj=>(
         <News_artciles
         title= {obj.title}
         url = {obj.image_url}

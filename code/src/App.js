@@ -3,10 +3,10 @@ import MenuSelect from './modules/MenuSelect';
 import {Route,Routes} from 'react-router-dom';
 
 import NighCityNews from './modules/news_feed/NightCityNews';
-import TopHunter from './modules/Top_hunters';
-import TopHacker from './modules/Top_hackers';
-import PastConversation from './modules/Past_convo'
-import MyProfile from './modules/MyProfile'
+import TopHunter from './modules/top_hunters/Top_hunters';
+import TopHacker from './modules/top_netRunners/Top_hackers';
+import PastConversation from './modules/conversation/Past_convo'
+import MyProfile from './modules/profile/MyProfile'
 
 import './App.css';
 
